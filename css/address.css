@@ -1,0 +1,88 @@
+.address-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.address-container h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.address-list {
+    margin-bottom: 20px;
+}
+
+.address-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.address-item:hover {
+    background-color: #f9f9f9;
+}
+
+.address-item input[type="radio"] {
+    margin-left: 10px;
+}
+
+.address-item label h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.address-item label p {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.add-new-address {
+    margin: 20px 0;
+}
+
+.add-address-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.add-address-btn:hover {
+    background-color: #1E88E5;
+}
+
+.submit-section {
+    margin-top: 20px;
+}
+
+.confirm-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm-btn:hover {
+    background-color: #45a049;
+}

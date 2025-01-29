@@ -1,0 +1,168 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.orders-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.status-form label {
+    font-size: 1em;
+    color: #333;
+    margin-right: 10px;
+}
+
+.status-form select {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.status-form button {
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.status-form button:hover {
+    background-color: #45a049;
+}
+
+.status-form button:active {
+    background-color: #388e3c;
+}
+
+.order-header {
+    margin-bottom: 20px;
+}
+
+.order-header h2 {
+    padding-right: 0%;
+    font-size: 1.8em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.order-header p {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0;
+}
+
+.order-items h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.order-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.order-item-details {
+    flex-grow: 1;
+}
+
+.order-item-details h4 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.order-item-details p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.order-item-details p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.order-item-details p span {
+    color: #e67e22;
+}
+
+@media (max-width: 768px) {
+    .order-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .order-item img {
+        margin-bottom: 15px;
+    }
+
+    .order-item-details {
+        text-align: center;
+    }
+
+    .status-form {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .status-form select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .status-form button {
+        width: 100%;
+    }
+}
