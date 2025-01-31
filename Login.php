@@ -39,7 +39,7 @@
             }
         }
     ?>
-    <form action="/Site/login.php" method="POST">
+    <form action="/login.php" method="POST">
         <h1>صفحه ورود</h1>
 
         <label for="username">نام کاربری:</label>

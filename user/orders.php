@@ -56,7 +56,7 @@ if ($orders_result->num_rows == 0) {
                     while ($item = $items_result->fetch_assoc()):
                     ?>
                         <div class="order-item">
-                            <img src="http://localhost/Site/uploads/<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['title']); ?>">
+                            <img src="/uploads/<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['title']); ?>">
                             <div class="order-item-details">
                                 <h4><?php echo htmlspecialchars($item['title']); ?></h4>
                                 <p>تعداد: <?php echo $item['quantity']; ?></p>

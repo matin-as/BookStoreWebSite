@@ -3,9 +3,9 @@
         <h1>فروشگاه کتاب آنلاین</h1>
 </header>
     <nav>
-        <a href="/Site/">خانه</a>
-        <a href="/Site/About.php">درباره ما</a>
-        <a href="/Site/ContactUs.php">تماس با ما</a>
+        <a href="/">خانه</a>
+        <a href="/About.php">درباره ما</a>
+        <a href="/ContactUs.php">تماس با ما</a>
         <?php
         session_start();
         $current_url = $_SERVER['REQUEST_URI'];
@@ -16,12 +16,12 @@
 
         if (isset($_SESSION['username'])) 
         {
-            echo '<a href="/Site/user/profile.php">پروفایل </a>';
-            echo '<a href="/Site/card/card.php">سبد خرید </a>';
+            echo '<a href="/user/profile.php">پروفایل </a>';
+            echo '<a href="/card/card.php">سبد خرید </a>';
         }
         else
         {
-            echo '<a href="/Site/Register.php">ورود</a>';
+            echo '<a href="/Register.php">ورود</a>';
         }
         ?>
     </nav>

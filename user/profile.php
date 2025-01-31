@@ -20,7 +20,7 @@
 ?>
 <main>
     <div class="profile-card">
-        <img src="http://localhost/Site/images/profilepic.png" alt="عکس پروفایل" class="profile-img">
+        <img src="/images/profilepic.png" alt="عکس پروفایل" class="profile-img">
         <?php
             if (!isset($_SESSION['username'])) {
                 header("Location: /Site/Register.php");
